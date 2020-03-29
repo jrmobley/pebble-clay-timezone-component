@@ -1,0 +1,33 @@
+{
+  "name": "pebble-clay-timezone-component",
+  "author": "JR Mobley",
+  "version": "0.1.0",
+  "description": "Timezone Picker for Pebble Clay Config Framework",
+  "license": "MIT",
+  "files": [
+    "dist.zip"
+  ],
+  "keywords": [
+    "pebble-package"
+  ],
+  "dependencies": {
+    "moment-timezone": "^0.5.28"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

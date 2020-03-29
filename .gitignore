@@ -1,0 +1,8 @@
+node_modules/
+.lock-waf*
+build/
+
+# I think that ordinarily one would exclude the dist.zip from souce control,
+# but by including it, you enable the package to be used directly from
+# the repository without publication to npm, so we will inlude it.
+# dist.zip

@@ -1,0 +1,27 @@
+<div class="component component-timezone">
+  <label class="tap-highlight">
+    <span class="label">{{{label}}}</span>
+    <div class="selectors">
+      <div>
+        <span class="tz-area display"></span>
+        <select class="tz-area">
+          {{each options}}
+            <option value="{{this.label}}" class="item-select-option">{{this.label}}</option>
+          {{/each}}
+        </select>
+      </div>
+      <div>
+        <span class="tz-location display"></span>
+        <select class="tz-location">
+          <option value="Dummy_Location" class="item-select-option">Dummy Location</option>
+        </select>
+      </div>
+    </div>
+  </label>
+  <span class="input">
+    <input data-manipulator-target type="hidden" />
+  </span>
+  {{if description}}
+    <div class="description">{{{description}}}</div>
+  {{/if}}
+</div>
